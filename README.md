@@ -6,6 +6,18 @@ https://developers.google.com/gmail/api/quickstart/ruby
 ### APIリファレンス
 http://www.rubydoc.info/github/google/google-api-ruby-client/Google/Apis/GmailV1
 
+## 準備
+1. [Ruby Quickstart](https://developers.google.com/gmail/api/quickstart/ruby)の「Step 1: Turn on the Gmail API」を実施して、『client_secret.json』をディレクトリ内に配置する
+```
+$ cd ruby_sample_gmail 
+$ ls -l
+-rw-r--r--@ 1 xxx  yyy   435  5  3 12:00 client_secret.json
+```
+2. 「google-api-client」をインストールする
+```
+$ gem install google-api-client
+```
+
 ## 実行
 1. 実行する
 ```
